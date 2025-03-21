@@ -16,7 +16,7 @@ export default function Tabs({ tabs }: TabsProps) {
   const pathname = usePathname();
 
   return (
-    <div className="flex space-x-4 border-b" style={{ backgroundImage: 'url(https://www.originfitness.com/media/magefan_blog/Dollar_Academy_WEB-01.jpg)' }}>
+    <div className="flex space-x-4 border-b" >
       {tabs.map((tab) => (
         <Link
           key={tab.name}
